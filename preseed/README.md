@@ -1,11 +1,12 @@
 Unattended install
 -------------
 > **Steps:**
-
 > - Download iso and mount it:
 ```shell
+mkdir ~/Desktop/preseed && cd ~/Desktop/preseed
+wget http:k//releases.ubuntu.com/16.04/ubuntu-16.04.3-server-amd64.iso
 mkdir ubuntu_iso
-sudo mount -r -o loop ubuntu-16.04.1-server-amd64.iso ubuntu_is
+sudo mount -r -o loop ubuntu-16.04.3-server-amd64.iso ubuntu_iso
 ```
 > - Change permissions: (dont forget to change user)
 ```shell
@@ -15,7 +16,7 @@ sudo chown user:user ubuntu_files
 sudo chmod 755 ubuntu_files
 sudo umount ubuntu_iso
 ```
-> - Copy files and change permissions:
+> - Copy files from this repo and change permissions:
 ```shell
 cp ks.cfg,ubuntu-auto.seed ubuntu_files
 chmod 644 ubuntu_files/ks.cfg ubuntu_files/ubuntu-auto.seed
