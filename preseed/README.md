@@ -6,7 +6,7 @@
 
   ```shell
   mkdir ~/Desktop/preseed && cd ~/Desktop/preseed
-  wget http:k//releases.ubuntu.com/16.04/ubuntu-16.04.3-server-amd64.iso
+  wget http://releases.ubuntu.com/16.04/ubuntu-16.04.3-server-amd64.iso
   mkdir ubuntu_iso
   sudo mount -r -o loop ubuntu-16.04.3-server-amd64.iso ubuntu_iso
   ```
@@ -32,16 +32,7 @@
 - Change txt.cfg:
 
   ```shell
-  vim ubuntu_files/isolinux/txt.cfg
-  ```
-
-  Add after "default install":
-
-  ```shell
-  label autoinstall
-    menu label ^Automatically install Ubuntu
-    kernel /install/vmlinuz
-    append file=/cdrom/preseed/ubuntu-server.seed vga=788 initrd=/install/initrd.gz ks=cdrom:/ks.cfg preseed/file=/cdrom/ubuntu-auto.seed quiet ---
+  cp txt.cfg ubuntu_files/isolinux/txt.cfg
   ```
 
 - Change the timout, so the image starts without delay:
@@ -61,7 +52,6 @@
 
   ```shell
   sudo mkisofs -D -r -V "ubuntu-auto" -J -l -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table -input-charset utf-8 -cache-inodes -quiet -o ubuntu-auto.iso ubuntu_files/
-  sudo rm -rf ubuntu_files
   ```
 
 - Create bootable usb
@@ -70,6 +60,6 @@
   sudo apt-get install syslinux-utils
   sudo isohybrid ubuntu-auto.iso
   lsblk
-  sudo umount /dev/sdb
+  sudo umount /dev/sdb1
   sudo dd if=ubuntu-auto.iso of=/dev/sdb bs=4M && sync
   ```
