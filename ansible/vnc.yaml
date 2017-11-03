@@ -1,0 +1,7 @@
+- hosts:
+  - test
+  roles:
+    - {
+      role: "softasap.sa-vnc-remote-desktop",
+      vnc_password: "mansveld"
+      }

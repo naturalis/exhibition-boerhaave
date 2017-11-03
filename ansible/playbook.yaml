@@ -3,4 +3,4 @@
   roles:
     - angstwad.docker_ubuntu
     - wtanaka.teamviewer
-    - boerhaave.exhibit
+    - atzedevries.boerhaave-exhibit
