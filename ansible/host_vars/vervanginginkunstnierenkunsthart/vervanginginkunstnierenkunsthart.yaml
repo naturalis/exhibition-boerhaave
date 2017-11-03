@@ -1,4 +1,0 @@
----
-ansible_ssh_host: 172.16.30.42
-client: toekomst
-terminal: 1
