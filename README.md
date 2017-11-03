@@ -5,6 +5,15 @@
 We use Ansible to perform a one-off deployment of Docker images on about 66
 Linux devices in the exhibition of Rijksmuseum Boerhaave.
 
+### Roles
+
+We use the following roles:
+
+* boerhaave.exhibit
+* [teamviewer](https://github.com/AtzeDeVries/ansible-role-teamviewer)
+
+Clone these repositories into the ansible/roles subdirectory.
+
 ### Vault
 
 Secrets are stored using Ansible vault. You can provide the vault password on

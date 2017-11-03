@@ -1,34 +1,37 @@
-[toekomst]
+[all]
+localhost ansible_connection=local
+
+[exhibits-toekomst]
 toekomst-1-organen
 toekomst-2-baby
 toekomst-4-bloedbank
 toekomst-5-hersenchip
 toekomst-3-eeuwigleven
 
-[encyclopedie]
+[exhibits-encyclopedie]
 encyclopedie-1
 encyclopedie-2
 encyclopedie-3
 encyclopedie-4
 encyclopedie-5
 
-[techwand]
+[exhibits-techwand]
 techwand-projector-water
 techwand-projector-stroom
 techwand-projector-data
 techwand-consoles-1
 techwand-consoles-6
 
-[nobel]
+[exhibits-nobel]
 nobel1
 nobel2
 
-[boerhaavelijn-kijkers]
+[exhibits-boerhaavelijn-kijkers]
 boerhaavelijnkijkers-1
 boerhaavelijnkijkers-2
 boerhaavelijnkijkers-3
 
-[mgzn]
+[exhibits-mgzn]
 mgzn-1-kosmos
 mgzn-2-wereld
 mgzn-3-huijgens
@@ -54,32 +57,32 @@ mgzn-22-biotech
 mgzn-23-chipscomputer
 mgzn-24-chipsqubit
 
-[simplica]
+[exhibits-simplica]
 simplicia
 
-[diagnose]
+[exhibits-diagnose]
 diagnose
 
-[ziekenhuis]
+[exhibits-ziekenhuis]
 ziekenhuis-plattegrond
 
-[ecg]
+[exhibits-ecg]
 ecg
 
-[vaardigheden]
+[exhibits-vaardigheden]
 vaardigheden
 
-[polderspel]
+[exhibits-polderspel]
 polderspel
 
-[pacmanpong]
+[exhibits-pacmanpong]
 pacmanpong
 
-[hollandse-cirkel]
+[exhibits-hollandse-cirkel]
 hollandse-cirkel
 
-[biotech]
+[exhibits-biotech]
 biotech
 
-[keerzijde]
+[exhibits-keerzijde]
 keerzijde
