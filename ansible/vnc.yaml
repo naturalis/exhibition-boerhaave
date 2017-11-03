@@ -1,5 +1,5 @@
 - hosts:
-  - test
+  - boerhaave-exhibits-all
   roles:
     - {
       role: "softasap.sa-vnc-remote-desktop",

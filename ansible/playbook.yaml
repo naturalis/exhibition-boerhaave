@@ -1,5 +1,5 @@
 - hosts:
-  - test
+  - boerhaave-exhibits-all
   roles:
     - angstwad.docker_ubuntu
     - wtanaka.teamviewer

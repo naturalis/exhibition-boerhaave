@@ -1,14 +1,15 @@
 [all]
 localhost ansible_connection=local
 
-[boerhaave-exihibits-all:childeren]
+[boerhaave-exhibits-all:children]
 exhibits-toekomst
 exhibits-encyclopedie
 exhibits-techwand-projector
+exhibits-techwand-consoles
 exhibits-nobel
 exhibits-boerhaavelijn-kijkers
 exhibits-mgzn
-exhibits-simplica
+exhibits-simplicia
 exhibits-diagnose
 exhibits-ziekenhuis
 exhibits-ecg
@@ -90,7 +91,7 @@ mgzn-22-biotech
 mgzn-23-chipscomputer
 mgzn-24-chipsqubit
 
-[exhibits-simplica]
+[exhibits-simplicia]
 simplicia
 
 [exhibits-diagnose]
