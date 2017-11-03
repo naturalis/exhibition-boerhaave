@@ -1,6 +1,25 @@
 [all]
 localhost ansible_connection=local
 
+[boerhaave-exihibits-all:childeren]
+exhibits-toekomst
+exhibits-encyclopedie
+exhibits-techwand-projector
+exhibits-nobel
+exhibits-boerhaavelijn-kijkers
+exhibits-mgzn
+exhibits-simplica
+exhibits-diagnose
+exhibits-ziekenhuis
+exhibits-ecg
+exhibits-vaardigheden
+exhibits-polderspel
+exhibits-pacmanpong
+exhibits-hollandse-cirkel
+exhibits-biotech
+exhibits-keerzijde
+
+
 [exhibits-toekomst]
 toekomst-1-organen
 toekomst-2-baby
