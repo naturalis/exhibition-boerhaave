@@ -525,16 +525,16 @@ config:
         '140':
           mac: 10:7b:44:1a:df:c7
           ipaddr: 172.16.30.90
-          descr: Mer
+          descr: new
         '141':
           mac: 10:7b:44:1a:de:32
           ipaddr: 172.16.30.91
-          descr: Mer
+          descr: new
         '142':
           mac: 10:7b:44:1a:dd:63
           ipaddr: 172.16.30.92
-          descr: Mer
+          descr: new
         '143':
           mac: 60:45:cb:72:b5:98
           ipaddr: 172.16.30.93
-          descr: Mer
+          descr: new
