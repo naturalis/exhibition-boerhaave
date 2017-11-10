@@ -1,0 +1,8 @@
+- hosts:
+  - boerhaave-exhibits-all
+  roles:
+    - {
+      role: "geerlingguy.nodejs",
+      nodejs_version: "8.x"
+      }
+    - atzedevries.boerhaave-exhibit
