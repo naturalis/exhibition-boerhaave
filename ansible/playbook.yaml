@@ -1,6 +1,10 @@
 - hosts:
   - boerhaave-exhibits-all
   roles:
-    - angstwad.docker_ubuntu
+      #- angstwad.docker_ubuntu
+    - {
+      role: "softasap.sa-vnc-remote-desktop",
+      vnc_password: "mansveld"
+      }
     - wtanaka.teamviewer
-    - atzedevries.boerhaave-exhibit
+    #- atzedevries.boerhaave-exhibit
