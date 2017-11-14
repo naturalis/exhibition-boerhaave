@@ -1,3 +1,11 @@
 ---
 ansible_ssh_host: 172.16.30.91
 terminal: 3
+overwrite_xrandr: true
+xrandr_command: |
+    xrandr \ 
+      --output DP-0 --off \
+      --output DVI-D-0 --mode 1920x1080 --pos 4920x0 --rotate normal \
+      --output HDMI-1 --mode 1920x1080 --pos 1920x0 --rotate left \
+      --output DP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal \
+      --output HDMI-0 --mode 1920x1080 --pos 3000x0 --rotate normal
