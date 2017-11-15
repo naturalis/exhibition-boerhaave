@@ -1,4 +1,5 @@
 *~
+vault-pass
 roles/*
 *.retry
 !roles/.placeholder
