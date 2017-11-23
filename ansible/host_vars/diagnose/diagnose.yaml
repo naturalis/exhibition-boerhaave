@@ -4,4 +4,6 @@ touch_rotate: inverted
 screen_rotate: inverted
 enable_phidget_server: true
 audio_volume: 75
+mac: F4:4D:30:6C:11:57
+
 

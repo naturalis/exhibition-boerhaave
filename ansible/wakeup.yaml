@@ -1,0 +1,6 @@
+- hosts:
+  - boerhaave-exhibits-all
+  roles:
+    - {
+      role: "atzedevries.wakeuponlan",
+      }

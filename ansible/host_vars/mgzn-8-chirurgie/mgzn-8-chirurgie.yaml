@@ -4,3 +4,4 @@ terminal: 8
 touch_rotate: right
 screen_rotate: right
 control_volume: false
+mac: F4:4D:30:6C:0C:51

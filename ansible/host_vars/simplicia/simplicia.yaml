@@ -1,6 +1,4 @@
 ---
 ansible_ssh_host: 172.16.30.24
-docker_image: boerhaave/simplicia
-docker_tag: latest
 client: simplicia
-
+mac: F4:4D:30:6C:76:E5

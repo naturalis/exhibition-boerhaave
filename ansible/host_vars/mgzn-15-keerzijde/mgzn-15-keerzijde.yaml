@@ -1,3 +1,5 @@
 ---
 ansible_ssh_host: 172.16.30.49
 terminal: 15
+mac: F4:4D:30:6C:3A:3A
+

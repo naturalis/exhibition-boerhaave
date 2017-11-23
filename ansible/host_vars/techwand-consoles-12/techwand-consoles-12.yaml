@@ -3,3 +3,4 @@ ansible_ssh_host: 172.16.30.71
 terminal: 12
 touch_rotate: right
 screen_rotate: right
+mac: F4:4D:30:6B:D5:87

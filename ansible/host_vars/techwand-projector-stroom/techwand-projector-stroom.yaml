@@ -1,3 +1,4 @@
 ---
 ansible_ssh_host: 172.16.30.64
 station: stroom
+mac: 60:45:CB:6C:A9:04
