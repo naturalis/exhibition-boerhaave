@@ -13,12 +13,10 @@ exhibits-simplicia
 exhibits-diagnose
 exhibits-ziekenhuis
 exhibits-ecg
-exhibits-vaardigheden
 exhibits-polderspel
 exhibits-pacmanpong
 exhibits-hollandse-cirkel
 exhibits-biotech
-exhibits-keerzijde
 
 
 [exhibits-toekomst]
@@ -103,9 +101,6 @@ ziekenhuis-plattegrond
 [exhibits-ecg]
 ecg
 
-[exhibits-vaardigheden]
-vaardigheden
-
 [exhibits-polderspel]
 polderspel
 
@@ -117,9 +112,6 @@ hollandse-cirkel
 
 [exhibits-biotech]
 biotech
-
-[exhibits-keerzijde]
-keerzijde
 
 [zaal-1]
 mgzn-1-kosmos
@@ -141,7 +133,6 @@ mgzn-11-ecg
 mgzn-12-statistiek
 ziekenhuis-plattegrond
 diagnose
-vaardigheden
 ecg
 
 [zaal-4]
@@ -164,7 +155,6 @@ encyclopedie-5
 
 [zaal-11]
 mgzn-15-keerzijde
-keerzijde
 
 [zaal-13]
 techwand-consoles-1
