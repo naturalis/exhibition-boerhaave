@@ -1,3 +1,5 @@
 ---
 ansible_ssh_host: 172.16.30.81
+overwrite_xrandr: true
+xrandr_command: echo not running
 mac: F4:4D:30:6C:3A:44
