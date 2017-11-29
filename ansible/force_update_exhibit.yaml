@@ -1,0 +1,11 @@
+- hosts:
+  - boerhaave-exhibits-all
+  vars:
+    git_update: yes
+    force_git_update: yes
+  roles:
+      # - {
+      # -    role: "geerlingguy.nodejs",
+      # -    nodejs_version: "8.x"
+      # -  }
+    - atzedevries.boerhaave-exhibit
