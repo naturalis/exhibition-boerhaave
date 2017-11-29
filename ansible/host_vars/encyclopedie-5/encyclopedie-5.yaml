@@ -1,6 +1,7 @@
 ---
 ansible_ssh_host: 172.16.30.93
 terminal: 5
+window_class_name: client
 overwrite_xrandr: true
 xrandr_command: >
     xrandr \
