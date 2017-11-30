@@ -1,5 +1,7 @@
 ---
 ansible_ssh_host: 172.16.30.45
 terminal: 5
-audio_volume: 80
 mac: F4:4D:30:6C:77:4A
+audio_volume: 50
+pcm_audio_volume: 50
+
