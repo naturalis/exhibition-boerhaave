@@ -538,3 +538,11 @@ config:
           mac: 60:45:cb:72:b5:98
           ipaddr: 172.16.30.93
           descr: new
+        '144':
+          mac: 90:AC:3F:0C:98:4F
+          ipaddr: 172.16.30.157
+          descr: new
+        '145':
+          mac: 90:AC:3F:0C:98:E3
+          ipaddr: 172.16.30.158
+          descr: new
