@@ -4,5 +4,5 @@ terminal: 1
 station: data
 mac: F4:4D:30:6C:0A:21
 audio_volume: 80
-pcm_audio_volume: 80
+pcm_audio_volume: 230
 

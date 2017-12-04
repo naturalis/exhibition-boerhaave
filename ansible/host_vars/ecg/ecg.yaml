@@ -3,6 +3,6 @@ ansible_ssh_host: 172.16.30.37
 touch_rotate: inverted
 screen_rotate: inverted
 mac: F4:4D:30:6C:0D:22
-audio_volume: 75
-pcm_audio_volume: 75
+audio_volume: 78
+pcm_audio_volume: 224
 
