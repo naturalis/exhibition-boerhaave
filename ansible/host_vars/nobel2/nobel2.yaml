@@ -5,4 +5,5 @@ xrandr_command: xrandr --output HDMI2 --off --output HDMI1 --primary --mode 1920
 mac: F4:4D:30:6C:3A:44
 touch_rotate: left
 screen_rotate: left
+mouse_hide: true
 
