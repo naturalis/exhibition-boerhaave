@@ -4,3 +4,5 @@ terminal: 12
 touch_rotate: right
 screen_rotate: right
 mac: F4:4D:30:6B:D5:87
+audio_volume: 71
+pcm_audio_volume: 201
