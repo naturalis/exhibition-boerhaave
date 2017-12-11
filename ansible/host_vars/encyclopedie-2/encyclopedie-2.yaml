@@ -11,3 +11,4 @@ xrandr_command: |
       --output DP-1 --off \
       --output HDMI-0 --mode 1920x1080 --pos 3000x0 --rotate right
 mac: 10:7b:44:1a:df:c7
+try_app_focus: false
