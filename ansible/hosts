@@ -197,6 +197,10 @@ boerhaavelijnkijkers-1
 boerhaavelijnkijkers-2
 boerhaavelijnkijkers-3
 
+[specials]
+simplicia
+polderspel
+
 [stable]
 encyclopedie-1
 encyclopedie-5
@@ -226,7 +230,6 @@ mgzn-21-gedrag
 mgzn-22-biotech
 mgzn-3-huijgens
 nobel1
-simplicia
 techwand-consoles-11
 techwand-consoles-12
 techwand-consoles-2
@@ -249,7 +252,6 @@ mgzn-22-biotech
 mgzn-24-chipsqubit
 nobel1
 pacmanpong
-simplicia
 techwand-consoles-10
 techwand-consoles-12
 techwand-consoles-14
