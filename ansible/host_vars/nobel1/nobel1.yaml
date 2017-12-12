@@ -1,8 +1,7 @@
 ---
 ansible_ssh_host: 172.16.30.80
 overwrite_xrandr: true
-xrandr_command: xrandr --output HDMI2 --off --output HDMI1 --primary --mode 1920x1080 --pos 0x0 --rotate left --output VIRTUAL1 --off --output DP1 --off
+xrandr_command: xrandr --output HDMI2 --off --output HDMI-1 --primary --mode 1920x1080 --pos 0x0 --rotate left --output VIRTUAL1 --off --output DP1 --off
 mac: F4:4D:30:6C:14:09
 touch_rotate: left
 screen_rotate: left
-

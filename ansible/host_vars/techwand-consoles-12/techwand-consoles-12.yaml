@@ -6,3 +6,4 @@ screen_rotate: right
 mac: F4:4D:30:6B:D5:87
 audio_volume: 71
 pcm_audio_volume: 201
+xrandr_output_interface: HDMI-1

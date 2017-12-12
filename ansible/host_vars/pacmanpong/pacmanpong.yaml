@@ -5,4 +5,4 @@ screen_rotate: inverted
 mac: F4:4D:30:6C:3B:82
 audio_volume: 76
 pcm_audio_volume: 216
-
+xrandr_output_interface: HDMI-1
