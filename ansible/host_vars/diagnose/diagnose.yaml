@@ -6,4 +6,4 @@ enable_phidget_server: true
 audio_volume: 78
 pcm_audio_volume: 200
 mac: F4:4D:30:6C:11:57
-xrandr_output_interface: HDMI-1
+xrandr_output_interface: HDMI1
