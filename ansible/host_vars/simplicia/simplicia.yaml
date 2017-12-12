@@ -2,3 +2,4 @@
 ansible_ssh_host: 172.16.30.24
 client: simplicia
 mac: F4:4D:30:6C:76:E5
+install_pqlabs: true

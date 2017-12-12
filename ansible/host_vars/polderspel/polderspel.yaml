@@ -9,3 +9,4 @@ xrandr_command: >
     --output DP-1 --off \
     --output HDMI-0 --off
 mac: 60:45:CB:6C:A8:F9
+install_pqlabs: true
