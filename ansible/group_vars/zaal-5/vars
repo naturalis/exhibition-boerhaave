@@ -1,3 +1,3 @@
 ---
-grub_cmd_line: "quiet splash i915.enable_rc6=0"
-stuck_testing: true
+#grub_cmd_line: "quiet splash i915.enable_rc6=0"
+#stuck_testing: true
