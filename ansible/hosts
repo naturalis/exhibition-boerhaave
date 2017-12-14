@@ -3,7 +3,6 @@ localhost ansible_connection=local
 
 [boerhaave-exhibits-all:children]
 exhibits-toekomst
-exhibits-encyclopedie
 exhibits-techwand-projector
 exhibits-techwand-consoles
 exhibits-nobel
@@ -25,13 +24,6 @@ toekomst-2-baby
 toekomst-4-bloedbank
 toekomst-5-hersenchip
 toekomst-3-eeuwigleven
-
-[exhibits-encyclopedie]
-encyclopedie-1
-encyclopedie-2
-encyclopedie-3
-encyclopedie-4
-encyclopedie-5
 
 [exhibits-techwand-projector]
 techwand-projector-water
@@ -146,13 +138,6 @@ toekomst-3-eeuwigleven
 toekomst-4-bloedbank
 toekomst-5-hersenchip
 
-[zaal-8]
-encyclopedie-1
-encyclopedie-2
-encyclopedie-3
-encyclopedie-4
-encyclopedie-5
-
 [zaal-11]
 mgzn-15-keerzijde
 
@@ -202,8 +187,6 @@ simplicia
 polderspel
 
 [stable]
-encyclopedie-1
-encyclopedie-5
 mgzn-1-kosmos
 mgzn-16-water
 mgzn-2-wereld
@@ -219,8 +202,6 @@ toekomst-4-bloedbank
 [kernel-update]
 biotech
 boerhaavelijnkijkers-3
-encyclopedie-2
-encyclopedie-4
 hollandse-cirkel
 mgzn-14-lab
 mgzn-15-keerzijde
