@@ -1,4 +1,6 @@
-# Unattended install
+# Preseed
+
+Alle interactives run on Ubuntu 16.04.3, which is installed by a [preseed file](https://github.com/naturalis/exhibition-boerhaave/tree/master/preseed) that we make.
 
 ## Steps
 
