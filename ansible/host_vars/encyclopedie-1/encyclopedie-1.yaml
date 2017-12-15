@@ -1,7 +1,0 @@
----
-ansible_ssh_host: 172.16.30.75
-terminal: 1
-enable_phidget_server: true
-overwrite_xrandr: true
-xrandr_command: echo not running
-mac: F4:4D:30:6C:77:CE
