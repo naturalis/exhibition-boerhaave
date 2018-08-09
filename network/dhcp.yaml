@@ -546,3 +546,19 @@ config:
           mac: 90:AC:3F:0C:98:E3
           ipaddr: 172.16.30.158
           descr: new
+        '146':
+          mac: c0:3f:d5:5f:36:a4
+          ipaddr: 172.16.30.94
+          descr: Schateiland-PC1
+        '147':
+          mac: 00:25:11:6f:3f:1b
+          ipaddr: 172.16.30.95
+          descr: Schateiland1
+        '148':
+          mac: c8:9c:dc:ed:e7:7a
+          ipaddr: 172.16.30.96
+          descr: Schateiland2
+        '149':
+          mac: 44:87:fc:6c:7b:82
+          ipaddr: 172.16.30.97
+          descr: Schateiland3
