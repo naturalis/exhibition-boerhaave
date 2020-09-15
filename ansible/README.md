@@ -19,7 +19,7 @@ exhibition of [Rijksmuseum Boerhaave](https://rijksmuseumboerhaave.nl/).
 4. Clone alle role repositories into the `ansible/roles` subdirectory. For instance:
 
    ```bash
-   git clone https://gitlab.com/naturalis/mii/ansible-boerhaave-exhibit \
+   git clone https://gitlab.com/naturalis/mii/boerhaave/ansible-boerhaave-exhibit \
    ~/code/exhibition-boerhaave/ansible/roles/atzedevries.boerhaave-exhibit
    ```
 
@@ -33,7 +33,7 @@ exhibition of [Rijksmuseum Boerhaave](https://rijksmuseumboerhaave.nl/).
 
 We use the following roles:
 
-* [boerhaave-exhibit](https://gitlab.com/naturalis/mii/ansible-boerhaave-exhibit)
+* [boerhaave-exhibit](https://gitlab.com/naturalis/mii/boerhaave/ansible-boerhaave-exhibit)
 * [teamviewer](https://github.com/wtanaka/ansible-role-teamviewer)
 * [wakeuponlan](https://github.com/AtzeDeVries/atzedevries.wakeuponlan)
 * [reboot](https://github.com/AtzeDeVries/atzedevries.reboot)
